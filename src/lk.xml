@@ -13,3 +13,17 @@
     <year>2005</year>
     <price>29.99</price>
   </book>
+  <students>
+  <student>
+    <name>John Doe</name>
+    <age>20</age>
+    <gender>Male</gender>
+    <major>Computer Science</major>
+  </student>
+  <student>
+    <name>Jane Smith</name>
+    <age>22</age>
+    <gender>Female</gender>
+    <major>Engineering</major>
+  </student>
+</students>
