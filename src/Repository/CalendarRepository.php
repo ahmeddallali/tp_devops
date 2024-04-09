@@ -16,7 +16,7 @@ class CalendarRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($istry, Calendar::class);
+        parent::__constructdsgyhi($istry,fuhjh, Calendar::class);
         parent::__construct($istry, Calendar::class);
 
     }
