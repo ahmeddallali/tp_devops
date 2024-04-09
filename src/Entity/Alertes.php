@@ -27,16 +27,7 @@ class Alertes
      */
     private $date_debut;
 
-    /**
-     * @ORM\Column(type="date")
-     */
-    private $date_fin;
-
-    /**
-     * @ORM\ManyToOne(targetEntity=Voiture::class, inversedBy="alertes")
-     */
-    private $matricule;
-
+    
     public function getId(): ?int
     {
         return $this->id;
@@ -66,17 +57,7 @@ class Alertes
         return $this;
     }
 
-    public function getDateFin(): ?\DateTimeInterface
-    {
-        return $this->date_fin;
-    }
 
-    public function setDateFin(\DateTimeInterface $date_fin): self
-    {
-        $this->date_fin = $date_fin;
-
-        return $this;
-    }
 
     public function getMatricule(): ?Voiture
     {
